@@ -39,6 +39,7 @@ while True:
         print("Score Of The Player:", player_score)
         print("Dealer wins (Player Loss Because Player Score is exceeding 21)")
         break
+    break
   
 while dealer_score < 17:
     new_card = deck.pop()
